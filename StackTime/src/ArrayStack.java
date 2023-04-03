@@ -3,7 +3,6 @@ public class ArrayStack<E> implements Stack<E>{
     private E[]data;
     private int t=-1;
 
-
     public ArrayStack(int CAPCITY) {
         data= (E[]) new Object[CAPCITY];
     }
